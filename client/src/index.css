@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+
+.navbar{
+  background: rgba(0,0,0,0.9) !important;
+  backdrop-filter: blur(10px);
+}
+
+.nav-link{
+  color: white !important;
+  transition: 0.3s;
+}
+
+.nav-link:hover{
+  color: #0dcaf0 !important;
+}
+
+/* Buttons */
+
+.btn{
+  transition: 0.3s !important;
+}
+
+.btn:hover{
+  transform: translateY(-3px);
+}
+
+/* Cards */
+
+.card{
+  transition: 0.4s;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
+/* Social Icons */
+
+.fa-github,
+.fa-linkedin,
+.fa-instagram{
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fa-github:hover,
+.fa-linkedin:hover,
+.fa-instagram:hover{
+  color: #0dcaf0;
+  transform: scale(1.2);
+}
+
+/* Section Heading */
+
+section h2{
+  font-size: 2.5rem;
+}
+/* Navbar Premium */
+
+.navbar{
+  transition: 0.4s;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.navbar-brand{
+  letter-spacing: 1px;
+}
+
+.nav-link{
+  position: relative;
+  font-weight: 500;
+}
+
+.nav-link::after{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  background: #0dcaf0;
+  transition: 0.3s;
+}
+
+.nav-link:hover::after{
+  width: 100%;
+}
+.project-card {
+  transition: 0.4s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-12px);
+}
+
+.project-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+
+.project-card:hover .project-overlay {
+  opacity: 1;
+}
