@@ -13,7 +13,7 @@ function Projects() {
       desc: "Modern responsive portfolio website built for showcasing skills, projects, education and contact information with professional UI design.",
       tech: ["React.js", "Bootstrap", "JavaScript"],
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-      github: "https://github.com/rk8313681",
+      github: "https://github.com/rk8313681/portfolio.git",
       live: "#",
     },
   ];
