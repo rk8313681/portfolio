@@ -12,9 +12,11 @@ https://portfolio-z11h.vercel.app
 - JavaScript
 
 ## Features
+
 - Responsive Design
-- Projects Section
+- Modern UI
 - Skills Section
-- Education Section
+- Projects Showcase
+- Education Timeline
 - Contact Form
 - Resume Download
