@@ -38,7 +38,7 @@ function Footer() {
   </a>
 
 </div>
-      <p className="mb-0">&copy; 2024 Ravi Kumar. All rights reserved.</p>
+     <p className="mb-0">© {new Date().getFullYear()} Ravi Kumar. All rights reserved.</p>
     </footer>
   );
 }
